@@ -94,3 +94,5 @@ import numpy.core.defchararray
 
 # task22
 print(np.kron([[1, 0] * 4, [0, 1] * 4] * 4, np.ones((10, 10))))
+
+#task23
