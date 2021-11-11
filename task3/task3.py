@@ -63,3 +63,28 @@
 # for i in range(1, 11):
 #     d.update({i: i ** 2})
 # print(d)
+
+# task15
+# s = {0, 1, 2, 3, 4}
+# s.update([5, 6, 7])
+# s.difference_update({1, 2})
+# for i in s:
+#     print(i)
+
+# task16
+# set1 = {"green", "blue"}
+# set2 = {"blue", "yellow"}
+# union = set1.union(set2)
+# intersect = set1.intersection(set2)
+# diff = set1.difference(set2)
+
+# task17
+# set_m = {1, 54, 23, 7, 45, 11, 39}
+# print(max(set_m))
+# print(min(set_m))
+
+# task18
+x = tuple(range(1, 101))
+for i in range(len(x)):
+    if x[i] % 5 == 0:
+        print(x[i])
