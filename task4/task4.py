@@ -93,6 +93,7 @@ import numpy.core.defchararray
 # print(np.where(matrix10x10 < 1, 1, matrix10x10))
 
 # task22
-print(np.kron([[1, 0] * 4, [0, 1] * 4] * 4, np.ones((10, 10))))
+# print(np.kron([[1, 0] * 4, [0, 1] * 4] * 4, np.ones((10, 10))))
 
 #task23
+
